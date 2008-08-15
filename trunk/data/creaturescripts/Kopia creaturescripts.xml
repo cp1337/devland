@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<creaturescripts>
+
+<event type="login" name="LOGIN" script="login.lua" />
+<event type="dieplayer" name="DIE_PLAYER" script="die1.lua" />
+
+</creaturescripts>

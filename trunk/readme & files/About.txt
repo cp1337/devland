@@ -1,0 +1,4 @@
+DevLand - It's open Tibia server, based on SVN 0.6.0
+
+More at:
+Http://www.forum.devland.info

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Sniezynka" script="furniture.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="136" head="20" body="50" legs="60" feet="90"/>
+</npc>

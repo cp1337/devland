@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<weapons>
+<!-- Axe -->
+	<melee id="2378" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2429" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2435" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+
+	<melee id="2387" level="25" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+
+	<melee id="2381" level="25" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="3962" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2432" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7419" level="40" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2380" level="35" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7413" level="40" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7389" level="60" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7434" level="75" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2431" level="90" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+<!-- Club -->
+	<melee id="7381" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7425" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7432" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2434" level="25" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7387" level="25" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7430" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7379" level="25" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7437" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2445" level="35" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7451" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7452" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7392" level="35" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7426" level="40" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7415" level="60" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7427" level="45" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2391" level="50" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7429" level="75" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+
+<!-- Sword -->
+	<melee id="7386" level="20" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2377" level="20" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2392" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7449" level="25" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2407" level="30" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2451" level="35" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7407" level="30" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2446" level="45" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="7406" level="35" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7402" level="45" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7384" level="60" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2393" level="55" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7382" level="60" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="7390" level="75" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="6528" level="75" enabled="1" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2400" level="80" unproperly="1" enabled="1" function="internalLoadWeapon"/>
+	<melee id="2408" level="110" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="2390" level="140" function="internalLoadWeapon">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+<!-- Distance -->
+	<wand id="2182" lvl="8" mana="2" enabled="1" script="snakebite rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+
+	<wand id="2186" lvl="13" mana="3" enabled="1" script="moonlight rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	
+	<wand id="2185" lvl="19" mana="5" enabled="1" script="volcanic rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	
+	<wand id="2181" lvl="26" mana="8" enabled="1" script="quagmire rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	
+	<wand id="2183" lvl="33" mana="13" enabled="1" script="tempest rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	
+	<wand id="2190" lvl="8" mana="2" enabled="1" script="wand of vortex.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	
+	<wand id="2191" lvl="13" mana="3" enabled="1" script="wand of dragonbreath.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	
+	<wand id="2188" lvl="19" mana="5" enabled="1" script="wand of plague.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	
+	<wand id="2189" lvl="26" mana="8" enabled="1" script="wand of cosmic energy.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	
+	<wand id="2187" lvl="33" mana="13" enabled="1" script="wand of inferno.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+
+	<distance id="2545" enabled="1" exhaustion="1" hitchance="80" script="poison arrow.lua"/>
+	<distance id="2546" enabled="1" exhaustion="1" hitchance="80" script="explosive arrow.lua"/>
+
+
+	<wand id="8817" lvl="22" mana="5" enabled="1" exhaustion="0" script="northwind rod.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</wand>
+	<wand id="8818" lvl="37" mana="13" enabled="1" exhaustion="0" script="springsprout rod.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</wand>
+	<wand id="8816" lvl="42" mana="13" enabled="1" exhaustion="0" script="underworld rod.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</wand>
+	<wand id="8827" lvl="22" mana="5" enabled="1" exhaustion="0" script="wand of draconia.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="8826" lvl="37" mana="13" enabled="1" exhaustion="0" script="wand of starstorm.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="8828" lvl="42" mana="13" enabled="1" exhaustion="0" script="wand of voodoo.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+
+
+</weapons>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Alladyn" script="Carpetman1.lua" access="5">
+	<health now="40" max="40"/>
+	<look type="133" head="114" body="119" legs="132" feet="114"/>
+</npc>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<npc name="Oracle" script="oracle.lua" autowalk="0" floorchange="0" access="0" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look typeex="1448" corpse="2212"/>
+<parameters>
+
+</parameters>
+</npc>

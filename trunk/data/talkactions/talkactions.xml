@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<talkactions>
+<talkaction words="henge" script="henge.lua" />
+<talkaction words="up!" script="teleports.lua" />
+<talkaction words="down!" script="teleports.lua" />
+<talkaction words="clone!" script="clone.lua" />
+<talkaction words="addpremium" script="premium.lua" />
+</talkactions>

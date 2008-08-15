@@ -1,0 +1,7 @@
+<quests>
+	<quest name="Royal Tree" startstorageid="2498" startstoragevalue="1">
+		<mission name="Kill Dragon Lord and find royal helmet" storageid="2498" startvalue="1" endvalue="1">
+			<missionstate id="1" description="You got reward!" />
+		</mission>
+	</quest>
+</quests>

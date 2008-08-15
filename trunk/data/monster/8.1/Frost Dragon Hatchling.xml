@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" race="undead" experience="700" speed="245" manacost="0">
+  <health now="600" max="600"/>
+  <look type="283" head="20" body="30" legs="40" feet="50" corpse="7970"/>
+  <targetchange interval="5000" chance="6"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="250"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" attack="60" skill="50"/>
+    <attack name="frost smokewave" interval="2000" chance="16" min="-0" max="-75"/>
+    <attack name="frost exori bomb" interval="1000" chance="15" min="-0" max="-60"/>
+    <attack name="frost smoke berserk" interval="2000" chance="14" min="-0" max="-90"/>
+  </attacks>
+  <defenses armor="32" defense="55">
+    <defense name="healing" interval="1000" chance="15" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="YOU WILL FREEZE!" yell="1"/>
+    <voice sentence="ZCHHHHH!" yell="1"/>
+    <voice sentence="I am so cool" yell="1"/>
+    <voice sentence="Chill out!." yell="1"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2672" countmax="1" chance1="33000" chancemax="0"/> --Dragon Ham
+    <item id="2033" chance="1968"/> --Golden Mug
+    <item id="1973" chance="5222"/> --Book
+    <item id="2547" countmax="1" chance1="3500" chancemax="0"/> --Power Bolt
+    <item id="2796" countmax="1" chance1="8000" chancemax="0"/> --Green Mushroom
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+        <item id="2148" countmax="63" chance1="88888" chancemax="0"/> --Gold Coins
+        <item id="2146" countmax="1" chance1="1483" chancemax="0"/> --Small Sapphire
+      </inside>
+    </item>
+  </loot>
+</monster>
