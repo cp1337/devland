@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Zbakany Tkacz" script="Carpetman1.lua" access="5">
+	<health now="40" max="40"/>
+	<look type="146" head="112" body="100" legs="121" feet="114"/>
+</npc>

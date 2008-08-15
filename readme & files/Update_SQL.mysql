@@ -1,0 +1,12 @@
+CREATE TABLE `player_addons` (
+  `player_id` int(11) NOT NULL,
+  `outfit` int(11) NOT NULL,
+  `addon` int(11) NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE `deathlist` (
+  `player` int(21) NOT NULL default '0',
+  `killer` varchar(30) collate latin1_general_ci NOT NULL default '',
+  `level` int(21) NOT NULL default '0',
+  `date` int(21) NOT NULL default '0'
+) ENGINE = InnoDB;

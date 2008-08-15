@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Dendal" script="Olfera/Miller.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="128" head="0" body="88" legs="116" feet="114" />
+</npc>

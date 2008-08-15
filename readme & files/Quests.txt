@@ -1,0 +1,65 @@
+-- Stardenia proste Questy z data/quests/quest.lua --
+Quest w Ciele na rapiera	        	x: 1500 y: 1347 z: 9
+Quest w drzewie na silver amulet        	x: 1437 y: 1398 z: 5
+Quest w Garnku na brass helmet          	x: 1401 y: 1450 z: 7
+Quest w Ciele na Zegarek                	x: 1360 y: 1393 z: 7
+Quest w drzewie na studded helmet       	x: 1378 y: 1328 z: 8
+Quest w drzewie na legion helmet        	x: 1376 y: 1381 z: 13
+Quest w Ciele na Copper + Dragon        	x: 1465 y: 1345 z: 12
+Quest w grobie na Mace                  	x: 1350 y: 1277 z: 13
+Quest w skrzyni na wêdke                	x: 1309 y: 1335 z: 12
+Quest w skrzyni na Carlin Sword         	x: 1310 y: 1335 z: 12
+Quest w drzewie na kokosa                       x: 1417 y: 1263 z: 7
+
+-- Stardenia Questy z UID od 2500-2600 --
+Zejœcie na dó³ za pomoc¹ grobu UID 	2500	x: 1410 y: 1285 z: 7
+
+
+-- Stardenia prze³¹czniki --
+Prze³acznik na copper shielda                   x: 1406 y: 1335 z: 12
+
+
+-- Orelfera, dodatkowe actionsy --
+
+Brama Zoo Action-ID 300      			x: 517 y: 477 z: 7
+Przejscie tylko dla Druida i Maga UID 3004      x: 455 y: 474 z: 8
+Przejscie przez studnie UID 3006                x: 462 y: 292 z: 7
+Przelacznik na most w drzewie UID 3007          x: 411 y: 339 z: 7
+Przelacznik na most w drzewie UID 3008          x: 476 y: 386 z: 8
+Drzewo z listem i picku i itemem UID 3100       x: 484 y: 513 z: 9
+Ziemia do odkopania pickiem UID 3101         	x: 495 y: 539 z: 8
+
+
+-- Main, okolice Orelfery Unique ID od 3000 do 3099 --
+
+Quest w Trumnie na Dark Helmet             	x: 615 y: 432 z: 8
+Quest w Grobie na Klucz UID 3001           	x: 510 y: 428 z: 7
+Quest w drzewie na kase UID 3002           	x: 416 y: 445 z: 9
+Quest w regale na ksia¿ke UID 3003         	x: 405 y: 471 z: 5
+Quest w ciele na ??? UID 3005         		x: 425 y: 350 z: 7
+Quest w krzaku na valentine card           	x: 486 y: 486 z: 7
+
+Quest w skrzyni na steel helmet            	x: 341 y: 518 z: 5
+Quest w biurku na axe ring-a               	x: 341 y: 520 z: 5
+Quest w armor rack na plate armor          	x: 332 y: 550 z: 6
+Quest w drzewie na tim ring-a              	x: 522 y: 322 z: 5
+Quest w armor rack na Knight Armor         	x: 481 y: 305 z: 8
+Quest w skrzyni na ring of healing         	x: 281 y: 392 z: 6
+Quest w drzewie na Dragon Shield           	x: 306 y: 440 z: 5
+Quest w du¿ej skrzyni na ³uk          	        x: 531 y: 284 z: 7
+Quest w skrzyni na Scimitara          	        x: 334 y: 361 z: 8
+Quest w skrzyni na trapa          	        x: 369 y: 542 z: 11
+Quest w skrzyni na wolf tooth chain       	x: 369 y: 544 z: 11
+Quest w krzaku na Smoczy Naszyjnik      	x: 244 y: 458 z: 7
+
+
+-- Main, okolice Calis Unique ID od 3200 do 3300 --
+
+Otwarcie przejœcia do TP (K³oda) UID 3200      	x: 409 y: 686 z: 11
+
+
+
+
+
+
+

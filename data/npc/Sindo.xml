@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Sindo" script="Olfera/banker.lua" access="3" lookdir="2" autowalk="25">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="128" head="1" body="86" legs="88" feet="115" />
+</npc>

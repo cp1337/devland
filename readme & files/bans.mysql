@@ -1,0 +1,9 @@
+
+CREATE TABLE `bans` (
+    `type` INT NOT NULL COMMENT 'this field defines if its ip, account, player, or any else ban',
+    `ip` INT UNSIGNED NOT NULL DEFAULT 0,
+    `mask` INT UNSIGNED NOT NULL DEFAULT 4294967295,
+    `player` INT UNSIGNED NOT NULL DEFAULT 0,
+    `account` INT UNSIGNED NOT NULL DEFAULT 0,
+    `time` INT UNSIGNED NOT NULL DEFAULT 0
+) ENGINE = InnoDB;

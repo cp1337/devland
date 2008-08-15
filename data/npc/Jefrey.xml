@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Jefrey" script="Addons/hunterreka.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="129" head="79" body="59" legs="69" feet="0" />
+</npc>

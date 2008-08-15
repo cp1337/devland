@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<npc name="Tedol" script="Olfera/loot.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="160" head="28" body="45" legs="117" feet="114" />
+</npc>
+

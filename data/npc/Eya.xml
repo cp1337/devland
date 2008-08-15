@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<npc name="Eya" script="kid1.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="136" head="114" body="90" legs="121" feet="114"/>
+</npc>
+

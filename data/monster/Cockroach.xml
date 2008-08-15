@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<monster name="Cockroach" nameDescription="a cockroach" race="venom" experience="0" speed="100" manacost="0">
+    <health now="1" max="1"/>
+    <look type="284" corpse="8498"/>
+      
+
+<flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="0"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="5"/>
+      <flag runonhealth="1"/>
+</flags>
+
+<defenses armor="0" defense="0">
+</defenses>
+
+  <immunities>
+    <immunity poison="1"/>
+  </immunities>
+    
+<loot>
+    <item id="8616" chance="99999"/>
+</loot>
+  
+
+</monster>

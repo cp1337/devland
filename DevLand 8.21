@@ -1,0 +1,106 @@
+[BUILDER_INFO]
+Version=4.2.5
+
+[GENERAL_INFO]
+ProductName=DevLand 8.21
+ProductVersion=0.1.1.2
+ProductManufacturer=DevTe@m
+ProductCode={76DEC0E7-D18E-410B-90A1-DC5B6EC43A80}
+ProductUpdateCode={937F2F60-5908-4848-A761-64B7B6693AAF}
+SummaryTitle=Moja Aplikacja v1.0
+SummarySubject=Edytor tekstu
+SummaryAuthor=Jan Kowalski
+SummaryKeywords=tekst, edytor, dokument
+SummaryComments=Jakieœ podstawowe komentarze o produkcie
+SupportProductURL=http://www.mojafirma.com.pl/mojprodukt.html
+SupportURL=http://www.mojafirma.com.pl/pomoc.html
+SupportPhoneNumber=+48 22 1234567
+SupportContactPerson=Jan Kowalski
+SupportProductUpdateURL=http://www.mojafirma.com.pl/aktualizacja.html
+SupportProductComments=Jakieœ komentarze wsparcia technicznego
+
+[SETUP_INFO]
+DefaultRootFolderID=0
+CustomRootFolderPath=
+DefaultInstallationPath=%DevLand%
+DefaultShortcutFolderName=%DevLand%
+ShortcutsInCommonProgramGroups=No
+CreateUninstallerIcon=No
+UninstallerIconDescription=Odinstaluj %ProductName%
+ForceRestart=No
+
+[SYSTEM_REQUIREMENTS]
+AnyWindows=Yes
+Windows95=Yes
+Windows98=Yes
+WindowsME=Yes
+WindowsNT4=Yes
+Windows2000=Yes
+WindowsXP=Yes
+Windows2003=Yes
+WindowsVista=Yes
+
+[DIALOGS]
+Layout=0
+CustomDialogImage=No
+SmallCustomDialogImage=No
+CustomDialogBitmap_Pathname=
+CustomDialogSmallBitmap_Pathname=
+Advertisement_Pathname=
+Advertisement_BitmapPathname=
+WelcomeDialog=Yes
+LicenseDialog=Yes
+ReadmeDialog=No
+UserInfoDialog=No
+TargetDirectoryDialog=Yes
+SetupTypeDialog=No
+CustomSetupDialog=No
+StartDialog=Yes
+FinishDialog=Yes
+AdvertisementDialog=No
+
+[LICENSE_DIALOG]
+License_Pathname=C:\DevLand\readme & files\Dokument.rtf
+
+[README_DIALOG]
+Readme_Pathname=
+
+[FINISH_DIALOG]
+Show_ViewReadme_CheckBox=No
+Show_ViewReadme_Checked=No
+Show_RunApplication_CheckBox=No
+Show_RunApplication_Checked=No
+Readme_Pathname=
+Application_Pathname=
+
+[CREATE_SETUP]
+OutputFolder=C:&bs;DevLand
+SetupFilename=Setup.msi
+SetupExeFilename=Setup.exe
+SetupIconPathname=
+CreateSelfExtractedSetup=Yes
+IncludeMSIRuntime=Yes
+Language=English
+
+[APPLICATION_FILES]
+
+[PERMISSIONS]
+
+[SHORTCUTS]
+
+[REGISTRY_ENTRIES]
+
+[FILE_TYPES]
+
+[SEARCH]
+
+[ENVIRONMENT]
+
+[CUSTOM_ACTIONS]
+
+[SERVICES]
+
+[MERGE_MODULES]
+
+[ODBC]
+

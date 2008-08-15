@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Kamila" script="Olfera/furniture.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="138" head="78" body="109" legs="79" feet="0" />
+</npc>

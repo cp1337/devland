@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Kenia" script="Olfera/food.lua" access="3" lookdir="2" autowalk="25">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="148" head="59" body="91" legs="0" feet="91" />
+</npc>

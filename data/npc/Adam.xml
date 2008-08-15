@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Adam" script="Olfera/mail.lua" access="3" lookdir="3">
+	<health now="1" max="1"/>
+	<look type="128" head="36" body="104" legs="57" feet="99"/>
+</npc>

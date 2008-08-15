@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<npc name="Tetril" script="Olfera/runes.lua" access="3" lookdir="2" autowalk="0">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="130" head="76" body="3" legs="23" feet="114"/>
+</npc>
+
