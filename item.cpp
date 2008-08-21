@@ -136,6 +136,11 @@ Item::Item(const Item &i) :
 	//std::cout << "Item copy constructor " << this << std::endl;
 	id = i.id;
 	count = i.count;
+	
+	#ifdef __CORPSE_SYSTEM__
+	ownerBody = 0;
+	moveTicks = 0;
+    #endif
 
 	m_attributes = i.m_attributes;
 	if(i.m_firstAttr){

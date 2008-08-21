@@ -1077,11 +1077,17 @@ void ProtocolGame::parseStopAutoWalk(NetworkMessage& msg)
 void ProtocolGame::parseMove(NetworkMessage& msg, Direction dir)
 {
 	addGameTask(&Game::playerMove, player->getID(), dir);
+	#ifdef __TR_ANTI_AFK__
+	player->notAfk();
+	#endif
 }
 
 void ProtocolGame::parseTurn(NetworkMessage& msg, Direction dir)
 {
 	addGameTask(&Game::playerTurn, player->getID(), dir);
+	#ifdef __TR_ANTI_AFK__
+	player->notAfk();
+	#endif
 }
 
 void ProtocolGame::parseRequestOutfit(NetworkMessage& msg)

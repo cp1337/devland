@@ -172,6 +172,11 @@ Creature()
 	gmInvisible = false;
 #endif
 
+#ifdef __TR_ANTI_AFK__
+	idleTime   = 0;
+	warned     = false;
+#endif
+
 }
 
 Player::~Player()
@@ -3815,5 +3820,30 @@ void Player::addDeath(const std::string& killer, int level, time_t time)
 
 	while(deathList.size() > g_config.getNumber(ConfigManager::MAX_DEATH_ENTRIES))
 		deathList.pop_front();
+}
+#endif
+
+#ifdef __TR_ANTI_AFK__
+void Player::notAfk()
+{
+	idleTime = 0;
+	warned = false;
+}
+
+void Player::checkAfk(int thinkTicks)
+{
+	if(getAccessLevel() >= 2)
+		return;
+    
+    if(idleTime < g_config.getNumber(ConfigManager::KICK_TIME))		
+		idleTime += thinkTicks;		
+
+	if(idleTime < g_config.getNumber(ConfigManager::KICK_TIME) && idleTime > (g_config.getNumber(ConfigManager::KICK_TIME) - 60000) && !warned){
+		sendTextMessage(MSG_STATUS_CONSOLE_RED, "Warning: You have been afk for too long. You will be kicked in a minute.");
+		warned = true;
+	}
+
+	if(idleTime >= g_config.getNumber(ConfigManager::KICK_TIME) && warned)
+		kickPlayer();
 }
 #endif
