@@ -144,6 +144,14 @@ bool ConfigManager::loadFile(const std::string& _filename)
     m_confInteger[EXP_COLOR] = getGlobalNumber(L, "expcolor", 215);
     m_confString[ANIMATED_SPELLS] = getGlobalString(L, "animatedspells", "no");
     #endif
+    
+   	#ifdef __DEATH_LIST__
+	m_confInteger[MAX_DEATH_ENTRIES] = (size_t)getGlobalNumber(L, "maxdeathentries", 10);
+	#endif
+	
+	#ifdef __TR_ANTI_AFK__
+	m_confInteger[KICK_TIME] = getGlobalNumber(L, "kicktime", 15)*60000;
+	#endif	
 	
 	m_confInteger[BAN_UNJUST] = getGlobalNumber(L, "banunjust", 1)-1;
 	m_confInteger[RED_UNJUST] = getGlobalNumber(L, "redunjust", 1)-1;

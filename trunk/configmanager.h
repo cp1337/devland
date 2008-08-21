@@ -117,8 +117,11 @@ public:
 		EXP_COLOR,
 		#endif
 		#ifdef __DEATH_LIST__
-	    MAX_DEATH_ENTRIES,
-        #endif
+		MAX_DEATH_ENTRIES,
+		#endif
+		#ifdef __TR_ANTI_AFK__
+		KICK_TIME,
+		#endif		
 		BAN_UNJUST,
 		RED_UNJUST,
 		BAN_TIME,

@@ -395,6 +395,11 @@ public:
     #ifdef __DEATH_LIST__
 	void addDeath(const std::string& killer, int level, time_t time);
 	#endif 
+	
+    #ifdef __TR_ANTI_AFK__
+	void checkAfk(int thinkTics);
+	void notAfk();
+	#endif
 
 	const OutfitListType& getPlayerOutfits();
 	bool canWear(uint32_t _looktype, uint32_t _addons);
@@ -755,6 +760,11 @@ protected:
     #ifdef __DEATH_LIST__
 	typedef std::list<Death> DeathList;
 	DeathList deathList;
+	#endif
+
+	#ifdef __TR_ANTI_AFK__
+	int idleTime;
+	bool warned;
 	#endif
 
 	void updateItemsLight(bool internal = false);

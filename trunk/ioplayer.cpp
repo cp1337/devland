@@ -672,27 +672,28 @@ bool IOPlayer::savePlayer(Player* player)
 		return false;
 	}
     #endif
-
-	#ifdef __XID_SEPERATE_ADDONS__
-	query.str("");
-	query << "DELETE FROM `player_addons` WHERE player_id='" << player->getGUID() << "'";
+    
+    #ifdef __DEATH_LIST__
+    //Save death list
+    query.str("");
+	query << "DELETE FROM `deathlist` WHERE player='" << player->getGUID() << "'";
 	if(!db->executeQuery(query.str())){
 		return false;
 	}
-	query.str("");
-	
-	stmt.setQuery("INSERT INTO `player_addons` (`player_id`, `outfit`, `addon`) VALUES ");
-	for(KnowAddonMap::const_iterator it = player->getKnowAddonBegin(); it != player->getKnowAddonEnd(); it++){
-		query << "'" << player->getGUID() << "', '" << it->first << "', '" << it->second << "'";
+	query.str("");   
+
+	stmt.setQuery("INSERT INTO `deathlist` (`player`, `killer`, `level`, `date`) VALUES ");
+	for(std::list<Death>::iterator it = player->deathList.begin(); it != player->deathList.end(); it++){
+		query << "'" << player->getGUID() << "', '" << (*it).killer << "', " << (*it).level << ", " << (*it).time << "";
         if(!stmt.addRow(query)){
 			return false;
 		}
 		query.str("");
-    }    
-	if(!stmt.execute()){
+	}    
+    if(!stmt.execute()){
 		return false;
 	}
-    #endif
+    #endif   
 
 	//End the transaction
 	return transaction.commit();

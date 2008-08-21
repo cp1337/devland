@@ -363,6 +363,11 @@ public:
 	}
 	uint32_t getDefaultDuration() const {return items[id].decayTime * 1000;}
 	bool canDecay();
+	
+    #ifdef __CORPSE_SYSTEM__ 
+    int ownerBody;
+    int moveTicks;
+    #endif
 
 	virtual bool canRemove() const {return true;}
 	virtual bool canTransform() const {return true;}
